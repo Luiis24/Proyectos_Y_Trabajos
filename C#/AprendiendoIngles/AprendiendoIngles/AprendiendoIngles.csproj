@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{CFFACB3F-3BB4-4D4A-9727-FB767926DB9C}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AprendiendoIngles</RootNamespace>
+    <AssemblyName>AprendiendoIngles</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.WMPLib">
+      <HintPath>..\..\dll\Interop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="wmp">
+      <HintPath>..\..\dll\wmp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animales.cs" />
+    <Compile Include="Animales.Designer.cs">
+      <DependentUpon>Animales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Colores.cs" />
+    <Compile Include="Colores.Designer.cs">
+      <DependentUpon>Colores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copi.cs" />
+    <Compile Include="Copi.Designer.cs">
+      <DependentUpon>Copi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dias.cs" />
+    <Compile Include="Dias.Designer.cs">
+      <DependentUpon>Dias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Familia.cs" />
+    <Compile Include="Familia.Designer.cs">
+      <DependentUpon>Familia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Figuras.cs" />
+    <Compile Include="Figuras.Designer.cs">
+      <DependentUpon>Figuras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meses.cs" />
+    <Compile Include="Meses.Designer.cs">
+      <DependentUpon>Meses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numeros.cs" />
+    <Compile Include="Numeros.Designer.cs">
+      <DependentUpon>Numeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sonidos.cs" />
+    <Compile Include="Vocales.cs" />
+    <Compile Include="Vocales.Designer.cs">
+      <DependentUpon>Vocales.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Animales.resx">
+      <DependentUpon>Animales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Colores.resx">
+      <DependentUpon>Colores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copi.resx">
+      <DependentUpon>Copi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dias.resx">
+      <DependentUpon>Dias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Familia.resx">
+      <DependentUpon>Familia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Figuras.resx">
+      <DependentUpon>Figuras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meses.resx">
+      <DependentUpon>Meses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numeros.resx">
+      <DependentUpon>Numeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vocales.resx">
+      <DependentUpon>Vocales.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
