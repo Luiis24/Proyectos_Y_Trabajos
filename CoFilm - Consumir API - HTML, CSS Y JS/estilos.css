@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #000000;
+  color: #ffffff;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 100px auto;
+  position: relative;
+  gap: 40px;
+}
+
+.contenedor .pelicula {
+  text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  height: 50vh;
+  position: relative;
+}
+
+.paginacion {
+  position: relative;
+  bottom: 0;
+  background: hsl(269, 83%, 7%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  left: 0;
+  width: 100%;
+}
+.paginacion_largo {
+  overflow-x: scroll;
+}
+
+.paginacion button {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background: #241744;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: 0.3s ease all;
+}
+
+.paginacion button:hover {
+  background: #137c32;
+}

@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/en-gb-skms-rgb-vertical-4x5-pre-64427ced1f81c.jpg?crop=1.00xw:0.402xh;0,0.191xh&resize=1200:*");
+    background-position: top center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.foto h2 {
+    color: #fff;
+}
+
+.navbarF {
+    background-color: rgba(17,3,32,0.5);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sectionMorada {
+    padding: 50px;
+    height: fit-content;
+    background-color: rgb(17,3,32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionMorada img{
+    width: 250px
+}
+
+.contenedorSoporte{
+    color: #fff;
+    height: fit-content;
+}
+
+.soporte {
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+
+
+hr {
+    border: 0;
+    border-top: 2px solid #ffffff; 
+    border-bottom: 2px solid #333;
+    height:0;
+    }
+
+.titulo h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.administradores {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.admin {
+    display: flex;
+    padding: 15px;
+    border:1px solid #ffffff;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoAdmin {
+    margin-right: 10px;
+}
+.admin img {
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.admin h3 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.admin p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.comunicacion {
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.tituloc h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.comunicacion h3 {
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logoSoporte img{
+        width: 350px;
+    }
+
+    .comunicacion h3 {
+        font-size: 20px;
+    }
+
+    .fotoAdmin img {
+        width: 100px;
+        height: 100px;
+    }
+  }
+
+
+@media screen and (max-width: 480px){
+    .logoSoporte img{
+        width: 200px;
+    }
+
+    .comunicacion h3 {
+        font-size: small;
+    }
+    
+    .fotoAdmin img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .logoSoporte img{
+        width: 200px;
+    }
+
+    .comunicacion h3 {
+        font-size: small;
+    }
+    
+    .fotoAdmin img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .admin h3 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .admin p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}
+
+
+

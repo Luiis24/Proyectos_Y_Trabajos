@@ -1,0 +1,82 @@
+
+.Footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: hsl(269, 83%, 7%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.Social-links a :hover{
+    color:darkorchid;
+}
+.Social-links h4{
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.Copyright h6{
+    font-family: sans-serif;
+    background-color: hsl(269, 83%, 7%);
+    color:darkgray;
+}
+.Social-links a{
+    width: 20px;
+    color: #FFFFFF;
+}
+/* Espacios */
+#Logo{
+    width: 150px;
+}
+.Logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Social-links{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Icons a{
+    padding: 0 20px 0 20px;
+}
+@media (max-width:800px){
+    .Logo{
+        width: 30%;
+    }
+    .Social-links{
+        height: 100%;
+        width: 70%;
+    }
+}
+@media (max-width:650px){
+    .Social-links{
+        width: 100%;
+    }
+    .Footer{
+        flex-direction: column;
+        height: 300px;
+    }
+    .Copyright h6{
+        font-family: sans-serif;
+        background-color: hsl(269, 83%, 7%);
+        color:darkgray;
+        font-size: 10px;
+    }
+}

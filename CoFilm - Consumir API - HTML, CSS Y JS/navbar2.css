@@ -1,0 +1,207 @@
+:root {
+  --AltoBanner: 500px;
+}
+
+:root {
+  --AltoBanner: 500px;
+}
+.Foto {
+  display: flex;
+  height: var(--AltoBanner);
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(img/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+.Foto::after{
+  content: "";
+  width: 100%;
+  height: var(--AltoBanner);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.384);
+  z-index: 20;
+}
+.TopNav {
+  background-color: rgba(17, 3, 32, 0.8);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 22;
+}
+.TopNav li ul{
+  display: none;
+  position: absolute;
+  top:4.8%;
+  z-index: 1;
+}
+.TopNav li:hover > ul{
+  display: flex;
+  flex-direction: column;
+}
+ul{
+  list-style: none;
+}
+.Submenu a{
+  background-color: rgba(17, 3, 32, 0.8);
+}
+.TopNav .Menu a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  width: 135px;
+}
+.TopNav .NavLogo a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3px 16px 2px;
+  text-decoration: none;
+}
+#NavLogo{
+  width: 80px;
+}
+.List{
+  list-style: none;
+  display: flex;
+}
+.Menu a:hover{
+  background-color: #ddd;
+  color: rgb(92, 24, 165);
+}
+
+#toggler,
+  .TopNav label{
+    display: none;
+}
+#toggler1,
+  .TopNav label{
+    display: none;
+}
+.active{ 
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+/* <-------------------------------------------------- FrontPage --------------------------------------------------> */
+.FrontLogo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 21;
+  width: 100%;
+  height: 90%;
+}
+#FrontLogo{
+  width: 250px;
+}
+.SearchBar{
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 20%;
+}
+#SearchBar{
+  width: 700px;
+  height: 35px;
+  color: #fff;
+  padding-left: 20px;
+  border-radius: 20px;
+  border: 0;
+  background-color: rgba(17, 3, 32, 0.603); ;;
+}
+/* <-------------------------------------------------- Rest --------------------------------------------------> */
+.contenedor {
+  height: 700px;
+  
+  background-color: black;
+  color: #fff;
+}
+.informacion {
+  height: max-content;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 800px){
+  /* <-------------------------------------------------- FrontPage --------------------------------------------------> */
+  #SearchBar{
+    width: 500px;
+}
+}
+@media screen and (max-width: 650px) {
+  /* <-------------------------------------------------- NavBar --------------------------------------------------> */
+  .TopNav li:hover > ul{
+    top: 14%;
+  }
+  .TopNav {
+    background-color: rgba(17, 3, 32, 0.8);
+    overflow: hidden;
+    display: flex;
+    z-index: 22;
+  }
+  .NavLogo{
+    display: none;
+  }
+  .Menu{
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .List{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .TopNav label{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  #toggler:checked ~ .Menu{
+    max-height: 100%;
+  }
+  #MenuBotton{
+    width: 42px;
+    padding: 9px 8px;
+  }
+  
+  #Inicio img{
+    width: 80px;
+    padding: 3px 10px 2px 16px;
+  }
+  /* <-------------------------------------------------- FrontPage --------------------------------------------------> */
+  .FrontLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 21;
+    width: 100%;
+    height: 40%;
+  }
+  #FrontLogo{
+    width: 200px;
+}
+#SearchBar{
+  width: 400px;
+  height: 35px;
+  color: #fff;
+  border-radius: 20px;
+  border: 0;
+  background-color: rgba(17, 3, 32, 0.603);
+}
+}
+@media screen and (max-width: 800px){
+  /* <-------------------------------------------------- FrontPage --------------------------------------------------> */
+  #SearchBar{
+    width: 300px;
+}
+}
