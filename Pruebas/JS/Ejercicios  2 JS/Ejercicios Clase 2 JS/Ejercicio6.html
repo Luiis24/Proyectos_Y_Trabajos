@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = prompt ("Escribe un numero par o impar,  negativo o positivo")
+        while (!/^[-+]?[0-9]*\.?[0-9]+$/.test(n)) {
+        n = prompt("Invalido, vuelve a intentar:");
+      }
+        if (n %2==0 ){
+            if (n >=0 ){
+            document.write ("El numero es par y positivo")
+        }
+        else{
+            document.write ("El numero es par y negativo")
+        }
+        }
+        else{
+            if (n >=0 ){
+            document.write ("El numero es impar y positivo ")
+        }
+        else{
+            document.write ("El numero es impar y negativo")
+        }
+        }
+    </script>
+</body>
+</html>

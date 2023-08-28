@@ -1,0 +1,24 @@
+.tarjetas{
+    display: flex;
+    justify-content: center;
+}
+.tarjeta_horizontal{
+    display: flex;
+    justify-content: center;
+}
+.tarjeta_img{
+    display: flex;
+    justify-content: center;
+}
+.personal{
+    display: flex;
+    justify-content: center;
+}
+.convenios{
+    display: flex;
+    justify-content: center;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+}

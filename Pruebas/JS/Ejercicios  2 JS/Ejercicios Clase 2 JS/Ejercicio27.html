@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var t = prompt("Escribe algo:");
+      t = t.toLowerCase();
+      while (!/^[a-z]*\.?[a-z]+$/.test(t)) {
+        t = prompt("Invalido, vuelve a intentar:")
+      }
+      var r = "";
+      for (var i = 0; i < t.length; i++) {
+        var c = t.charAt(i);
+        if (c == "a" || c == "e" || c == "i" || c == "o" || c == "u") {
+          r += "*";
+        } else {
+          r += c;
+        }
+      }
+      document.write(r);
+    </script>
+</body>
+</html>

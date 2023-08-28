@@ -1,0 +1,8 @@
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\obj\Debug\Suma3.csprojResolveAssemblyReference.cache
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\obj\Debug\Suma3.MainForm.resources
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\obj\Debug\Suma3.csproj.GenerateResource.Cache
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\bin\Debug\Suma3.exe.config
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\bin\Debug\Suma3.exe
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\bin\Debug\Suma3.pdb
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\obj\Debug\Suma3.exe
+C:\Users\SENA\Documents\SharpDevelop Projects\Suma3\Suma3\obj\Debug\Suma3.pdb

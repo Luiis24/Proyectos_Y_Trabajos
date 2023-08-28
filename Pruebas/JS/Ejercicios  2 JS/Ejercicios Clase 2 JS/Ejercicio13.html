@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var j = "secreto"
+        var n = prompt ("Escribe una contraseña")
+        n = n.toLowerCase();
+        while (!/^[a-z]*\.?[a-z]+$/.test(n)) {
+        n = prompt("Invalido, vuelve a intentar:");
+      }
+        if (n == j ){
+            document.write ("Has ingresado correctamente")
+        }
+        else{
+            document.write ("La contraseña es incorrecta")
+        }
+
+    </script>
+</body>
+</html>

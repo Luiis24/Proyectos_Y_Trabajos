@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = prompt("Cuantos Numeros deseas ingresar")
+      while (!/^[]?[0-9]*\.?[0-9]+$/.test(n)) {
+        n = prompt("Invalido, vuelve a intentar:")
+      }
+      var arr =[0]
+      for (let i = 0; i <= n-1; i++){
+        arr [i] = window.prompt()
+      }
+      document.write(`El numero mas grande ${Math.max(...arr)}`)
+      
+      document.write(` y el numero mas pequeño ${Math.min(...arr)}`)
+      
+    </script>
+</body>
+</html>

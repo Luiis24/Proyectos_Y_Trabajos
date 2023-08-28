@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = prompt("Ingrese un numero:");
+        while (!/^[-+]?[0-9]*\.?[0-9]+$/.test(n)) {
+        n = prompt("Invalido, vuelve a intentar:")
+      }
+        var ns = n.toString();
+        var l = ns.length;
+        var suma = 0;
+        for (var i = 0; i < l; i++) {
+        var d = parseInt(ns.charAt(i));
+        suma += Math.pow(d, l);
+    }
+
+        if (suma === n) {
+        document.write(n , " es un numero Armstrong.");
+    } else {
+        document.write(n , " no es un numero Armstrong.");
+    }
+
+    </script>
+</body>
+</html>

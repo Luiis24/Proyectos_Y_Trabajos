@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = prompt ("Escribe algo")
+        n = n.toLowerCase();
+        while (!/^[a-z]*\.?[a-z]+$/.test(n)) {
+        n = prompt("Invalido, vuelve a intentar:");
+      }
+        document.write ("la longitud de " , n , " es: ", n.length)
+    
+    </script>
+</body>
+</html>

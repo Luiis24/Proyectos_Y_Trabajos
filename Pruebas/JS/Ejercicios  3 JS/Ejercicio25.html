@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let num = prompt("Ingrese un numero:");
+let numDigitos = num.length;
+let numeros = prompt(`Ingrese numeros separados por coma con ${numDigitos} digitos:`);
+let numerosArray = numeros.split(",");
+let numerosValidos = [];
+for (let i = 0; i < numerosArray.length; i++) {
+  let numero = numerosArray[i];
+  if (numero.length === numDigitos) {
+    numerosValidos.push(numero);
+  }
+}
+let numMultiplos = 0;
+for (let i = 0; i < numerosValidos.length; i++) {
+  let numeroValido = numerosValidos[i];
+  if (numeroValido % num === 0) {
+    numMultiplos++;
+  }
+}
+document.write(`El primer numero es el ${num} y tiene ${numDigitos} digitos.<br>`);
+document.write(`De los ${numerosArray.length} numeros ingresados, ${numerosValidos.length} tienen ${numDigitos} digitos.<br>`);
+document.write(`De los ${numerosValidos.length} numeros validos, ${numMultiplos} son multiplos de ${num}.`);
+    </script>
+</body>
+</html>

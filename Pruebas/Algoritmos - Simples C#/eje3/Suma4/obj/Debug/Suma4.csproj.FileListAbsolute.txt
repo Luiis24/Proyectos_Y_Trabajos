@@ -1,0 +1,16 @@
+C:\CodigoLuis\Suma4\Suma4\bin\Debug\Suma4.exe.config
+C:\CodigoLuis\Suma4\Suma4\bin\Debug\Suma4.exe
+C:\CodigoLuis\Suma4\Suma4\bin\Debug\Suma4.pdb
+C:\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.csprojResolveAssemblyReference.cache
+C:\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.MainForm.resources
+C:\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.csproj.GenerateResource.Cache
+C:\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.exe
+C:\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.pdb
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.csprojResolveAssemblyReference.cache
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.MainForm.resources
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.csproj.GenerateResource.Cache
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.exe
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\bin\Debug\Suma4.exe.config
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\bin\Debug\Suma4.exe
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\bin\Debug\Suma4.pdb
+C:\Users\nando\Desktop\c#\CodigoLuis\Suma4\Suma4\obj\Debug\Suma4.pdb

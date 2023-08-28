@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var e = prompt ("Escribe tu edad")
+        while (!/^[0-9]*\.?[0-9]+$/.test(e)) {
+        e = prompt("Invalido, vuelve a intentar:");
+        }
+        var po = "españa"
+        var p = prompt("Escribe tu pais de origen")
+        p = p.toLowerCase();
+        while (!/^[\p{L}\.]+$/iu.test(p)) {
+        p = prompt("Invalido, vuelve a intentar:");
+        }
+        if (p == po && e >=18){
+            document.write ("Bienvenido puedes ingresar")
+        }
+        if (p == po && e <18){
+            document.write ("Lo siento, eres menor de edad y no puedes ingresar")
+        }
+        if (p != po){
+            document.write ("Lo siento, no puedes ingresar porque no eres de España")
+        }
+    </script>
+</body>
+</html>

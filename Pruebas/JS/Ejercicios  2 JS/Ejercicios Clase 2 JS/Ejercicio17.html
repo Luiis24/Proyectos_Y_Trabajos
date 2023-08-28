@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = prompt ("Escribe un numero")
+        while (!/^[-+]?[0-9]*\.?[0-9]+$/.test(n)) {
+        n = prompt("Invalido, vuelve a intentar:");
+      }
+        if (n <=10 && n>=1 ){
+            document.write ("El numero ingresado es valido")
+        }
+        else{
+            document.write ("El numero ingresado no es valido")
+        }
+    </script>
+</body>
+</html>

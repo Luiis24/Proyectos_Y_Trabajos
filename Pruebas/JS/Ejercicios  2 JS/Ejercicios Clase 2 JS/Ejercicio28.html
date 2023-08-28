@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = prompt ("Escribe un numero")
+        while (!/^[0-9]*\.?[0-9]+$/.test(n)) {
+        n = prompt("Invalido, vuelve a intentar:");
+      }
+      var f = 1;
+      for (var i = 1; i <= n; i++) {
+        f *= i;
+      }
+      document.write("El factorial de " , n , " es: " , f);
+    </script>
+</body>
+</html>

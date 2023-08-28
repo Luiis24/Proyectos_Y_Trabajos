@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var n = prompt("Ingrese un número:");
+var i = 2;
+while (i <= n) {
+  var p = true;
+  var j = 2;
+  while (j < i) {
+    if (i % j == 0) {
+      p = false;
+      break;
+    }
+    j++;
+  }
+  if (p) {
+    document.write(i);
+  } 
+  i++;
+}
+      </script>
+</body>
+</html>

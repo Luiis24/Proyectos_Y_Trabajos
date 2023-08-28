@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const n = prompt("escribe un numero:");
+let s = 0;
+for (let i = 0; i < n.length; i++) {
+  s += parseInt(n[i]);
+}
+if (parseInt(n) % s === 0) {
+  document.write(`${n} es un numero de Harshad.`);
+} else {
+  document.write(`${n} no es un numero de Harshad.`);
+}
+    </script>
+</body>
+</html>
