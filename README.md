@@ -1,2 +1,2 @@
-# Proyectos_Y_Trabajos
-Este es un vistazo de algunos de los proyectos y trabajos que he venido realizando durante mi formacion y aprendizaje en el desarollo de software.  Podras encontrar algunas pruebas, ejercicos, un poco de C#, HTML, CSS, JS, React, Boostrap y un poco de SQL.
+# CoFilm
+Este proyecto consiste en una página que por medio de una API (MovieDB) muestra información sobre películas y series, nombre, actores, duración, tráiler, comentarios, calificaciones, puede hacer recomendaciones, cuenta con categorías, un buscador totalmente funcional y un poco más.
