@@ -1,2 +1,2 @@
 # Aprendiendo ingles C#
-Este es un vistazo de algunos de los proyectos y trabajos que he venido realizando durante mi formacion y aprendizaje en el desarollo de software.  Podras encontrar algunas pruebas, ejercicos, un poco de C#, HTML, CSS, JS, React, Boostrap y un poco de SQL.
+Este pequeño proyecto consiste en una aplicación interactiva orientada a niños, wats tiene la intención de enseñar palabras en inglés contando con varias categorías, cada una de ellas cuenta con diferentes botones los cuales al presionar alguno de ellos se reproducira un sonido en inglés según la imagen que tenga el boton, el orden de cada botón será aleatorio cada vez que entre a alguna categoría.
