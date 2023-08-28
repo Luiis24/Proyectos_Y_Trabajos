@@ -1,8 +1,0 @@
-C:\CodigoLuis\suma5\suma5\bin\Debug\suma5.exe.config
-C:\CodigoLuis\suma5\suma5\bin\Debug\suma5.exe
-C:\CodigoLuis\suma5\suma5\bin\Debug\suma5.pdb
-C:\CodigoLuis\suma5\suma5\obj\Debug\suma5.csprojResolveAssemblyReference.cache
-C:\CodigoLuis\suma5\suma5\obj\Debug\suma5.MainForm.resources
-C:\CodigoLuis\suma5\suma5\obj\Debug\suma5.csproj.GenerateResource.Cache
-C:\CodigoLuis\suma5\suma5\obj\Debug\suma5.exe
-C:\CodigoLuis\suma5\suma5\obj\Debug\suma5.pdb
