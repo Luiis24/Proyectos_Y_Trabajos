@@ -1,2 +1,4 @@
-# Proyectos_Y_Trabajos
-Este es un vistazo de algunos de los proyectos y trabajos que he venido realizando durante mi formacion y aprendizaje en el desarollo de software.  Podras encontrar algunas pruebas, ejercicos, un poco de C#, HTML, CSS, JS, React, Boostrap y un poco de SQL.
+# Pruebas simples de desarrollo 
+Este es un vistazo de algunas de las pruebas que he realizado con varios leguanjes desde JS, C# y con Bootstrap y React.
+
+Son pruebas simples ya que fueron "los primeros pasos" para empezar a estudiar con algunos lenguajes.
