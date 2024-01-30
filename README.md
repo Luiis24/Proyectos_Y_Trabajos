@@ -1,5 +1,19 @@
 # Bike-Store
-Bike-Store consiste en la construcción de software integrador de tecnologías orientadas a servicios usando HTML, CSS, JS, PostgreSQL, React, Node Js.
+Bike-Store consiste en la construcción de software integrador de tecnologías orientadas a servicios usando:
+
+En el lado del cliente (Frontend):
+React y React-DOM: Framework de interfaz de usuario para construir componentes reutilizables y manejar la interfaz de usuario en la web.
+React Router DOM: Para la gestión de enrutamiento en una aplicación React.
+React Image Zoom y React Loading: Bibliotecas adicionales para funcionalidades específicas, como zoom de imágenes y componentes de carga.
+React Toastify: Biblioteca para mostrar notificaciones toast en la interfaz de usuario de React.
+Además, estás utilizando vite como herramienta de desarrollo y construcción del lado del cliente, junto con plugins específicos para React (@vitejs/plugin-react).
+
+En el lado del servidor (Backend):
+Axios: Una biblioteca para hacer solicitudes HTTP desde el lado del cliente.
+Bcrypt: Utilizado comúnmente para el cifrado de contraseñas.
+Cors: Middleware para habilitar el manejo de solicitudes de origen cruzado (CORS) en Node.js.
+pg: Un cliente PostgreSQL para Node.js.
+
 Este será una tienda de bicicletas con la posibilidad de registrarse e iniciar sesión con dicha cuenta registra, tendrá un carrito de compras, la posibilidad de organizar el catálogo de productos, categorías, un buscador, formulario de compra y la posibilidad de realizar la compra.
 
 La base de datos hace de "API" y esta fue desarollada especificamente para este proyecto por las personas que trabajamos en este.
