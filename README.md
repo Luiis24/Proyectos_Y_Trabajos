@@ -1,5 +1,5 @@
 # CoFilm
-Este proyecto consiste en una página que por medio de una API (MovieDB) muestra información sobre películas y series, nombre, actores, duración, tráiler, comentarios, calificaciones, puede hacer recomendaciones, cuenta con categorías, un buscador totalmente funcional y un poco más.
+Este proyecto consiste en una página que por medio de una API (MovieDB) https://www.themoviedb.org/?language=es la cual se uso para la muestra información sobre películas y series, nombre, actores, duración, tráiler, comentarios, calificaciones, puede hacer recomendaciones, cuenta con categorías, un buscador totalmente funcional y un poco más.
 
 Una vez descargado solo tendra que abrir el archivo index.html 
 
