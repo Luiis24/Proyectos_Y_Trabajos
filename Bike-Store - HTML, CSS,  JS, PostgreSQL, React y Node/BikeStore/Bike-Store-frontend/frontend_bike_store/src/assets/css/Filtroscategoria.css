@@ -1,0 +1,44 @@
+.filtros {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.categoriaPrecio {
+    display: flex;
+    gap: 6px;
+}
+
+.categoriaPrecio span {
+    color: rgb(87, 145, 0);
+}
+
+.categoriaTipo {
+    display: flex;
+    gap: 5px;
+}
+
+.filtros select {
+    width: 120px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: math;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.filtros option {
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: math;
+}
+@media(max-width:950px){
+    .filtros {
+        flex-direction: column;
+    }
+}
