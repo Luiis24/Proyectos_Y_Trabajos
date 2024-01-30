@@ -10,7 +10,7 @@ React Image Zoom y React Loading: Bibliotecas adicionales para funcionalidades e
 React Toastify: Biblioteca para mostrar notificaciones toast en la interfaz de usuario de React.
 Además, estás utilizando vite como herramienta de desarrollo y construcción del lado del cliente, junto con plugins específicos para React (@vitejs/plugin-react).
 
-En el lado del servidor (Backend):
+- En el lado del servidor (Backend):
 Axios: Una biblioteca para hacer solicitudes HTTP desde el lado del cliente.
 Bcrypt: Utilizado comúnmente para el cifrado de contraseñas.
 Cors: Middleware para habilitar el manejo de solicitudes de origen cruzado (CORS) en Node.js.
