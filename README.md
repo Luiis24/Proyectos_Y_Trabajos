@@ -5,5 +5,4 @@ Todo esto fue hecho con la intencion de desarrollar un proyecto en un lenguaje n
 
 Facebook:
 
-https://github.com/Luiis24/Proyectos_Y_Trabajos/assets/134552997/a1e0429d-9038-4066-9eaf-76ac3b31be01
-
+![WhatsApp Video 2024-01-30 at 1 55 34 AM](https://github.com/Luiis24/Proyectos_Y_Trabajos/assets/134552997/4ed3ca92-b6f2-4ce3-bd8e-a90d7787b65d)
